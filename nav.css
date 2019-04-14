@@ -1,0 +1,10 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    border: 1px solid grey;
+    border-top-color: black;
+    
+}
