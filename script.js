@@ -1,8 +1,9 @@
 var removeDuplicates = function(nums) {
     var Newarray = [];
-    for (element in nums) {
-        if (Newarray.indexOf(element) == -1) {
-            Newarray.push(element);           
-        }
+    for (let i = 0; i< nums.length;i++) {
+        if (Newarray.lastIndexOf(nums[i] == -1)) {
+            Newarray.push(nums[i]);
+        }        
     }
+    return Newarray;
 }
